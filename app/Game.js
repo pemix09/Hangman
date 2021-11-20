@@ -1,15 +1,9 @@
 import Quote from './Quote.js';
+import { GetQuotes } from './GetQuotes.js';
 
 export default class Game {
-  quotes = [
-    {
-        quote: 'Pan tadeusz',
-        category: 'Utwór literacki'
-    },
-    {
-        quote: 'Juliusz Slowacki',
-        category: 'Slawne osoby'
-    }];
+  quotes = GetQuotes();
+  
   constructor({ lettersWrapper, categoryWrapper, wordWrapper, outputWrapper }) {
     this.letters = lettersWrapper;
     this.category = categoryWrapper;

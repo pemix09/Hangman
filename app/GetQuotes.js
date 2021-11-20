@@ -7,7 +7,7 @@ export function GetQuotes()
         },
         {
             quote: 'Juliusz Slowacki',
-            category: 'Slawne osoby'
+            category: 'Sławne osoby'
         }];
     return quotes;
 }
