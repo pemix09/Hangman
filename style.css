@@ -50,3 +50,35 @@ html {
     padding: 30px 0px;
     text-transform:uppercase;
 }
+
+.ProfilePicture{
+    border-radius:50%;
+    width:200px;
+    margin: 20px;
+    border: 3px solid black;
+}
+.ProfilePicture:hover{
+    cursor:pointer;
+    border: 3px solid royalblue;
+}
+
+.Author{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Portfolio{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.Portfolio h1{
+    font-size: 40px;
+}
+.Portfolio svg{
+    width: 50px;
+}
+.Portfolio svg:hover{
+    fill: royalblue;
+    cursor: pointer;
+}
