@@ -19,3 +19,6 @@ user succeeds in guessing all letters of quote or if user chooses too many lette
 - JavaScript
 - HTML5
 - CSS
+
+## Where to play?
+https://pemix09.github.io/Hangman/
