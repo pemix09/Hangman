@@ -3,7 +3,7 @@ import { GetQuotes } from './GetQuotes.js';
 
 export default class Game {
   quotes = GetQuotes();
-  
+
   constructor({ lettersWrapper, categoryWrapper, wordWrapper, outputWrapper }) {
     this.letters = lettersWrapper;
     this.category = categoryWrapper;
@@ -34,6 +34,6 @@ export default class Game {
     this.drawLetters();
 
     this.content = this.quote.getContent();
-    this.word = this.content;
+    this.word.innerHTML = this.content;
   }
 }
