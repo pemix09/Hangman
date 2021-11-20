@@ -17,7 +17,8 @@ export default class Game {
   }
 
   guess(letter) {
-    console.log(letter);
+    this.quote.guess(letter);
+    this.drawQuote();
   }
 
   drawLetters() {
@@ -29,11 +30,12 @@ export default class Game {
       this.letters.appendChild(button);
     }
   }
-
-  start() {
-    this.drawLetters();
-
+  drawQuote(){
     this.content = this.quote.getContent();
     this.word.innerHTML = this.content;
+  }
+  start() {
+    this.drawLetters();
+    this.drawQuote();  
   }
 }

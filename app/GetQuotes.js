@@ -2,11 +2,11 @@ export function GetQuotes()
 {
     let quotes = [
         {
-            quote: 'Pan tadeusz',
+            quote: 'pan tadeusz',
             category: 'Utwór literacki'
         },
         {
-            quote: 'Juliusz Slowacki',
+            quote: 'juliusz slowacki',
             category: 'Sławne osoby'
         }];
     return quotes;
