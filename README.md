@@ -1,7 +1,7 @@
 # Hangman
 Simple JavaScript game.
 
-## Descriptions
+## Description
 Game aim is to guess all letters in the quote. Every quote has it's own category,
 which is displayed on the screen to help user guess the quote. The game ends if
 user succeeds in guessing all letters of quote or if user chooses too many letters.
@@ -11,9 +11,9 @@ user succeeds in guessing all letters of quote or if user chooses too many lette
 ### game:
 ![game](./images/screenshot1Game.png)
 ### win
-![win](./images/Screenshot1Win.png)
+![win](./images/Screenshot3Win.png)
 ### loose
-![loose](./images/Screenshot1Loose.png)
+![loose](./images/Screenshot2Loose.png)
 
 ## Technologies used:
 - JavaScript
